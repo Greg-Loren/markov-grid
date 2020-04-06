@@ -1,4 +1,4 @@
-# GridWorldMDP
+# Markov-Grid
 Uses Markov decision processes (MDPs) and Temporal Difference (TD) Q-learning to maximize reward in a "grid world".
 
 Our agent can move horizontally or vertically in the map pictured below.
@@ -15,5 +15,5 @@ By modeling our game world as a MDP, we can solve for the optimal "policy" (pict
 
 We further attempt to solve this problem in an unknown environment in which the rewards and transition model are not known to the agent. In this scenario, we use TD Q-learning as reinforcement learning to balance exploration vs. exploitation and arrive at a similar policy as above.
 
-[map]: https://github.com/rshaghoulian/GridWorldMDP/blob/master/documentation/documentation_files/part1_1_maze.jpg
-[policy]: https://github.com/rshaghoulian/GridWorldMDP/blob/master/screenshots/policy.png
+[map]: https://github.com/Greg-Loren/markov-grid/blob/master/documentation/documentation_files/part1_1_maze.jpg
+[policy]: https://github.com/Greg-Loren/markov-grid/blob/master/screenshots/policy.png
